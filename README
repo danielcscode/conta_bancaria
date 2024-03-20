@@ -1,8 +1,5 @@
-Pequeno projeto de conta bancaria com simulação de cadastro de novo usuario em Java.
-
+Projeto de conta bancária com simulação de cadastro de novo usuário em Java.
     * Nesse projeto existe a possibilidade de cadastrar um novo cliente;
-    * Pode ser feita o teste usando um cliente existênte - use a conta 00000, senha 1234567;
-    * No cadastro novo e o cadastro existente a possibilidade de tranferência, deposito e consulta de saldo;
-    * Para o cadastro existênte a uma funcionalidade de empréstimo, onde para conseguir novos valores é feito
-    um calculo do saldo atual e quantas parcelas prentende pagar, se o valor e quantidade de parcelas for acima
-    do limite não será possivel a "contratação".
+    * O teste pode ser feito usando um cliente existente - use a conta 00000, senha 1234567;
+    * No cadastro novo e no cadastro existente há possibilidade de transferência, depósito e consulta de saldo;
+    * Para o cadastro existente há uma funcionalidade de empréstimo. Para autorizar a transação é feito um cálculo que considera o saldo atual e a quantidade de parcelas em que se pretende pagar o empréstimo. Se o valor e/ou a quantidade de parcelas estiver acima do limite, não será possível a "contratação".
