@@ -191,6 +191,7 @@ public class Main {
                                 System.out.println();
                                 System.out.println("Valor da parcela: R$ " + parcelaFinal);
                                 System.out.println("Em " + emprestimo.getParcelas() + " parcelas!");
+                                usuario1.setSaldo(valorEmprestino);
                             } else {
                                 System.out.println("Não foi possivel realizar o emprestimo.");
                             }
